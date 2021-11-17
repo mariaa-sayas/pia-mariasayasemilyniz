@@ -1,0 +1,197 @@
+*{padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+    
+img{width: 100%;
+    height: auto;
+}
+
+h1 {font-family: 'PT Sans', sans-serif;
+font-size: 45px;
+font-weight: 600;
+color: white;
+text-align: center;
+margin-top: 90px ;
+margin-bottom: 30px;
+}
+
+h2{font-family: 'PT Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #20C46C;
+    margin-left: 30px;
+}
+
+h2 u {color: white;
+font-size: 15px;}
+
+.foto{height: 350px;
+width: 350px;
+}
+
+.flex{display: flex;
+justify-content: center;
+align-items: center;}
+
+.mision{background-color: #0F0E0E;
+text-align: center;
+font-family:'PT Sans', sans-serif;
+margin-top: 10px;
+margin-left: 40px;
+margin-right: 40px;
+padding: 30px 40px;
+box-shadow: -17px 13px 0px 1px #20C46C;
+}
+
+.mision h3{font-size: 25px;
+font-weight: 600;
+color: white;
+}
+
+.mision p {font-size: 18px;
+font-weight: 200;
+color: white;
+}
+
+.vision{background-color: #0F0E0E;
+    text-align: center;
+    font-family:'PT Sans', sans-serif;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 30px 40px;
+    box-shadow: -17px 13px 0px 1px #20C46C;
+}
+    
+.vision h3{font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+    
+.vision p {font-size: 18px;
+    font-weight: 200;
+    color: white;
+}
+
+.valores{background-color: #0F0E0E;
+    text-align: center;
+    font-family:'PT Sans', sans-serif;
+    margin-top: 5px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 50px;
+    padding: 30px 40px;
+    box-shadow: -17px 13px 0px 1px #20C46C;
+}
+    
+.valores h3{font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+    
+.valores p {font-size: 18px;
+    font-weight: 200;
+    color: white;
+}
+
+.caja2{display: flex;}
+
+.parte3 h1{font-size: 35px;
+    color: white;
+    background-color: #0080FF;
+    font-family:'IBM Plex Serif', serif ;
+    text-align: center;
+}
+
+
+
+/*CARTAS INICIO*/
+
+.card-header
+{height: 120px;
+  width: 120px;
+  padding: 50px 20px;
+}
+
+.card{
+    width: 30%;
+    background: #0F0E0E ;
+    border: 2px solid #0F0E0E;
+    margin-bottom: 30px;
+    margin-right: 11px;
+
+}
+
+.card-title h3{
+    text-align: left;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #ffffff;
+    font-size: 22px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+}
+
+.card-body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: white;
+    padding: 10px 30px;
+    padding-bottom: 15px;
+    text-align: left;
+    font-size: 13px;
+}
+
+.card:hover{
+    border-color: #0080FF;
+    transform:scale(1.05);
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+@media screen and (max-width:1000px) {
+    .card{
+        width: 40%;
+
+    }    
+}
+
+@media screen and (max-width:620px) {
+
+    .card{
+        width: 80%;
+
+    }   
+    
+}
+
+/*FIN CARTAS*/
+
+
+.footer-bottom span{text-transform: uppercase;
+    opacity:.4 ;
+    font-weight: 200;
+    color: coral;
+}
+.footer-bottom a :hover{
+    color: chartreuse;
+}
+
+
+
+
+
+
+
+
+
+
+
+

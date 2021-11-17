@@ -1,0 +1,206 @@
+*{padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+    
+img{width: 100%;
+    height: auto;
+}
+
+h1{font-family:'PT Sans', sans-serif;
+font-weight: 700;
+font-size: 50px;
+color: white;
+text-align: center;
+margin-top: 80px;
+}
+
+
+
+/*parte1*/
+
+.card-header
+{height: 350px;
+  width: 350px;
+  text-align: center;
+}
+
+
+
+.card{
+    width: 31%;
+    background: #0F0E0E ;
+    border: 2px solid #0F0E0E;
+    margin-bottom: 12px;
+    margin-right: 17px;
+    border-radius: 5px;
+    padding-bottom: 18px;
+    
+}
+
+
+.card-body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: white;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.card:hover{
+    border-color: rgb(0, 181, 252);
+    transform:scale(1.05);
+}
+
+.card-iconos
+{height: 30px;
+    width: 124px;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.card-iconos :hover{
+    transform:scale(1.05);  
+}
+
+.card-iconos2
+{height: 30px;
+    width: 124px;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 30px;
+    
+}
+
+.card-iconos2 :hover{
+    transform:scale(1.05);  
+}
+
+
+.card-iconos3
+{height: 30px;
+    width: 124px;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 0.5px;
+    
+}
+
+.card-iconos3 :hover{
+    transform:scale(1.05);  
+}
+
+.card-iconos4
+{height: 30px;
+    width: 124px;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.card-iconos4 :hover{
+    transform:scale(1.05);  
+}
+
+.card-iconos5
+{height: 30px;
+    width: 124px;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.card-iconos5 :hover{
+    transform:scale(1.05);  
+}
+
+.card-iconos6
+{height: 30px;
+    width: 124px;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.card-iconos6 :hover{
+    transform:scale(1.05);  
+}
+
+.card-iconos7
+{height: 30px;
+    width: 124px;
+    text-align: center;
+    padding-left:10px; 
+    padding-top: 30px; 
+    
+}
+
+.card-iconos7 :hover{
+    transform:scale(1.05);  
+}
+
+.card-iconos8
+{height: 30px;
+    width: 124px;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.card-iconos8 :hover{
+    transform:scale(1.05);  
+}
+
+.card-iconos9
+{height: 30px;
+    width: 124px;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.card-iconos9 :hover{
+    transform:scale(1.05);  
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+
+
+/* Responsive media querys*/
+@media screen and (max-width:1000px) {
+    .card{
+        width: 40%;
+
+    }    
+}
+
+@media screen and (max-width:620px) {
+
+    .card{
+        width: 80%;
+
+    }   
+    
+}
+
+/*Fin Cards*/
+
+
+
+/*fin3*/
+
+.footer-bottom span{text-transform: uppercase;
+    opacity:.4 ;
+    font-weight: 200;
+    color: coral;
+}
+.footer-bottom a :hover{
+    color: chartreuse;
+}
